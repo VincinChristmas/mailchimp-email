@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+
+    <!--[if mso]>
+    <style type="text/css">
+        body, table, td, p, a, h1, h2, h3 {
+            font-family: Arial, sans-serif !important;
+        }
+    </style>
+    <![endif]-->
+
+    <style>
+        @media (prefers-color-scheme: dark) {
+            body, table, td {
+                background-color: #1a1a1a !important;
+                color: #ffffff !important;
+            }
+
+            .light-bg {
+                background-color: #2a2a2a !important;
+            }
+
+            .dark-text {
+                color: #ffffff !important;
+            }
+
+            a.button {
+                background-color: #ffd84d !important;
+                color: #000000 !important;
+                border-color: #000000 !important;
+            }
+        }
+    </style>
+
     <title>Mailchimp Email</title>
 </head>
 
 <body>
-<!--Start of the main Email-->
+
+<!-- MAIN WRAPPER -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
     <tr>
         <td>
 
-            <!--Start of the container-->
+            <!-- CONTAINER -->
             <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation">
 
                 <!-- HEADER -->
                 <tr>
                     <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background:#fbf7f0;">
+                        <table class="light-bg" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background:#fbf7f0;">
                             <tr>
                                 <td style="padding:26px 35px;">
 
@@ -32,10 +67,31 @@
                                             </td>
 
                                             <td align="right">
-                                                <a href="https://vincinchristmas.com" 
-                                                   style="background:#ffe01b; text-align:center; display:inline-block; padding:12px 16px; border-radius:50px; border:1px solid #1e1c13; color:#1e1c13; text-decoration:none; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; " >
+
+                                                <!--[if mso]>
+                                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+                                                    href="https://vincinchristmas.com"
+                                                    style="height:40px;v-text-anchor:middle;width:160px;"
+                                                    arcsize="50%"
+                                                    strokecolor="#1e1c13"
+                                                    fillcolor="#ffe01b">
+                                                    <w:anchorlock/>
+                                                    <center style="color:#1e1c13; font-family:Arial, sans-serif; font-size:16px;">
+                                                        Register now
+                                                    </center>
+                                                </v:roundrect>
+                                                <![endif]-->
+
+                                                <!--[if !mso]><!-- -->
+                                                <a class="button" href="https://vincinchristmas.com" 
+                                                   style="background:#ffe01b; text-align:center; display:inline-block;
+                                                          padding:12px 16px; border-radius:50px; border:1px solid #1e1c13;
+                                                          color:#1e1c13; text-decoration:none;
+                                                          font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;">
                                                     Register now
                                                 </a>
+                                                <!--<![endif]-->
+
                                             </td>
                                         </tr>
                                     </table>
@@ -46,82 +102,154 @@
                     </td>
                 </tr>
 
-                <!-- Modern Marketing -->
+                <!-- MODERN MARKETING -->
                 <tr>
                     <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background: #e6b95f; padding: 20px 32px;">
+                        <table class="light-bg" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background:#e6b95f; padding:20px 32px;">
                             <tr>
-                                <td style="padding-bottom: 10px;">
-                                    <h1 style="color: #4b001e; font-size: 50px; font-weight: 400; margin: 0; line-height: 1; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">Modern marketing, jargon-free required.</h1>
+                                <td style="padding-bottom:10px;">
+                                    <h1 class="dark-text" style="color:#4b001e; font-size:50px; font-weight:400; margin:0; line-height:1; font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                        Modern marketing, jargon-free required.
+                                    </h1>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td style="padding-bottom: 10px;"">
-                                    <p style="color: #4b001e; font-size: 18px; font-weight: 400; line-height: 1.2; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">The best parts of Marketing Success Season, packed into 1 live, high-impact event. </p>
+                                <td style="padding-bottom:10px;">
+                                    <p class="dark-text" style="color:#4b001e; font-size:18px; font-weight:400; line-height:1.2; font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                        The best parts of Marketing Success Season, packed into 1 live, high-impact event.
+                                    </p>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td align="left" style="padding-bottom: 10px;">
-                                    <a href="https://vincinchristmas.com" 
-                                       style="background:#ffe01b; text-align:center; display:inline-block; padding:10px 20px; border-radius:50px; border:1px solid #1e1c13; color:#1e1c13; text-decoration:none; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
+                                <td align="left" style="padding-bottom:10px;">
+
+                                    <!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+                                        href="https://vincinchristmas.com"
+                                        style="height:40px;v-text-anchor:middle;width:160px;"
+                                        arcsize="50%"
+                                        strokecolor="#1e1c13"
+                                        fillcolor="#ffe01b">
+                                        <w:anchorlock/>
+                                        <center style="color:#1e1c13; font-family:Arial, sans-serif; font-size:16px;">
+                                            Register now
+                                        </center>
+                                    </v:roundrect>
+                                    <![endif]-->
+
+                                    <!--[if !mso]><!-- -->
+                                    <a class="button" href="https://vincinchristmas.com" 
+                                       style="background:#ffe01b; text-align:center; display:inline-block;
+                                              padding:10px 20px; border-radius:50px; border:1px solid #1e1c13;
+                                              color:#1e1c13; text-decoration:none;
+                                              font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;">
                                         Register now
                                     </a>
+                                    <!--<![endif]-->
+
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
-                <!--End of Modern Marketing-->
 
-                <!-- Start of About Details-->
+                <!-- ABOUT DETAILS -->
                 <tr>
                     <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background: #fbf7f0; padding: 20px 32px;">
+                        <table class="light-bg" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background:#fbf7f0; padding:20px 32px;">
+
+                            <!-- DETAILS ROW -->
                             <tr>
                                 <td>
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <table width="30%" border="0" cellspacing="0" cellpadding="0" role="presentation" align="left">
                                         <tr>
                                             <td>
-                                                <p>DETAILS</p>
+                                                <p class="dark-text" style="font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:700; font-size:15px;">
+                                                    DETAILS
+                                                </p>
                                             </td>
                                         </tr>
                                     </table>
 
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" align="right">
+                                    <table width="55%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                         <tr>
-                                            <td>
-                                               <p>
-                                                August 5, 2026 starting @ 10 am ET 4 live sessions + lunch break 1-hour Ask Me Anything with panelists
-                                               </p>
+                                            <td style="padding-right:20px;">
+                                                <p class="dark-text" style="padding-left:1px; mso-line-height-rule:exactly; font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:1.5; padding-right:25px;">
+                                                    August 5, 2026 starting @ 10 am ET<br>
+                                                    4 live sessions + lunch break<br>
+                                                    1-hour Ask Me Anything with panelists
+                                                </p>
                                             </td>
                                         </tr>
-                                    </table>   
+                                    </table>
                                 </td>
                             </tr>
 
-                            
-
+                            <!-- ABOUT ROW -->
                             <tr>
-                                <td align="left" style="padding-bottom: 10px;">
-                                    <a href="https://vincinchristmas.com" 
-                                       style="background:#ffe01b; text-align:center; display:inline-block; padding:10px 20px; border-radius:50px; border:1px solid #1e1c13; color:#1e1c13; text-decoration:none; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
-                                        Register now
-                                    </a>
+                                <td>
+                                    <table width="30%" border="0" cellspacing="0" cellpadding="0" role="presentation" align="left">
+                                        <tr>
+                                            <td>
+                                                <p class="dark-text" style="font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:700; font-size:15px;">
+                                                    ABOUT
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table width="70%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                        <tr>
+                                            <td>
+                                                <p class="dark-text" style="padding-left:1px; mso-line-height-rule:exactly; font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:1.5;">
+                                                    Marketing Success Season is back as a live, one-day event built for marketers like you who want practical strategies, real-world examples, and clearer ways to move forward.
+                                                </p>
+
+                                                <p class="dark-text" style="padding-left:1px; mso-line-height-rule:exactly; font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:1.5; padding-bottom:15px;">
+                                                    Join Mailchimp for 4 sessions, a lunch break, and a 1-hour live Ask Me Anything with panelists ready to take on the questions marketers are asking now.
+                                                </p>
+
+                                                <!--[if mso]>
+                                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+                                                    href="https://vincinchristmas.com"
+                                                    style="height:40px;v-text-anchor:middle;width:160px;"
+                                                    arcsize="50%"
+                                                    strokecolor="#1e1c13"
+                                                    fillcolor="#ffe01b">
+                                                    <w:anchorlock/>
+                                                    <center style="color:#1e1c13; font-family:Arial, sans-serif; font-size:16px;">
+                                                        Register now
+                                                    </center>
+                                                </v:roundrect>
+                                                <![endif]-->
+
+                                                <!--[if !mso]><!-- -->
+                                                <a class="button" href="https://vincinchristmas.com" 
+                                                   style="background:#ffe01b; text-align:center; display:inline-block;
+                                                          padding:10px 20px; border-radius:50px; border:1px solid #1e1c13;
+                                                          color:#1e1c13; text-decoration:none;
+                                                          font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                                    Register now
+                                                </a>
+                                                <!--<![endif]-->
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
                                 </td>
                             </tr>
+
                         </table>
                     </td>
                 </tr>
-                <!--End of About Details-->
 
             </table>
-            <!--end of container-->
-
         </td>
     </tr>
 </table>
-<!--end of main email-->
+
 </body>
 </html>
